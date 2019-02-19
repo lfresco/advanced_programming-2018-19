@@ -2,7 +2,7 @@
 """
 Created on Tue Feb 19 09:39:57 2019
 
-@author: ziki
+@author: Lorenzo Fresco
 """
 
 import unittest
