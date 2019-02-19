@@ -1,0 +1,1 @@
+Second Python exercise session
