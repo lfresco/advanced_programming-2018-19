@@ -6,8 +6,13 @@ Created on Tue Feb 19 09:39:57 2019
 """
 
 import unittest
-
-def myRange(arg1, arg2 = None, step =1):
+class MyRange():
+    
+    def __init__(self,start,stop,step=1):
+        self.range=range(start,stop,step)
+        
+        
+def myrange(arg1, arg2 = None, step =1):
     
     if arg1 == None:
         raise TypeError('Should at least have an arg')
